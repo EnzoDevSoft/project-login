@@ -1,0 +1,96 @@
+/* Reset básico de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte padrão e a cor de fundo */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6e45e2, #060606);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container centralizador */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo da caixa de login */
+.login-box {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(120, 118, 118, 0.425);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo do título */
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo das caixas de texto */
+.textbox {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.textbox input:focus {
+    border-color: #6e45e2;
+}
+
+/* Estilo do botão de login */
+.btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #664bb3;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #6245a6;
+}
+
+/* Estilo do link de cadastro */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.signup-link a {
+    color: #6e45e2;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
